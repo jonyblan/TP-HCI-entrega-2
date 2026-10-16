@@ -60,9 +60,6 @@
   width: 220px;
   height: 100vh;
   background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 /* 

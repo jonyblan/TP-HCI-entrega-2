@@ -4,9 +4,23 @@ import Navbar from '@/components/Navbar.vue'
 </script>
 
 <template>
-  <Navbar />
+  <div class="main-layout">
+    <Navbar />
 
-  <v-main>
-    <slot />
-  </v-main>
+    <main class="main-content">
+      <slot />
+    </main>
+  </div>
 </template>
+
+<style scoped>
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+</style>
