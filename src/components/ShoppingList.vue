@@ -3,6 +3,7 @@
 import { computed } from 'vue'
 import Category from './Category.vue'
 import Article from './Article.vue'
+import AddArticleButton from './AddArticleButton.vue';
 
 const props = defineProps<{
   type: 'fixed' | 'special'
@@ -35,10 +36,9 @@ const description = computed(() =>
     <!-- Section title and action -->
     <div class="shopping-list-toolbar">
       <h2>ORGANIZADO POR CATEGORÍA</h2>
-
-      <v-btn color="orange" prepend-icon="mdi-plus" rounded="lg">
-        {{ type === 'fixed' ? 'Artículo Fijo' : 'Agregar Artículo' }}
-      </v-btn>
+      <AddArticleButton 
+      name='Agregar Artículo'
+      ></AddArticleButton>
     </div>
 
     <!-- White content rectangle -->
