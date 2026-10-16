@@ -38,6 +38,15 @@
           class="orange-hover"
           rounded="lg"
         />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Login"
+          to="/login"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
       </v-list>
 
       <!-- New List Button -->
