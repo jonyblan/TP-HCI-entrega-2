@@ -8,7 +8,6 @@
   font-weight: normal;
 }
 
-a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
@@ -16,9 +15,13 @@ a,
   padding: 3px;
 }
 
+/*
+    A hover mainly for buttons, an example can be seen in the 
+    navbar when hovering over lists
+*/
 @media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+  .orange-hover:hover {
+    background-color: rgba(var(--v-theme-orange), 0.1);
   }
 }
 
