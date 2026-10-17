@@ -41,6 +41,123 @@
 
         <v-list-item
           prepend-icon="mdi-file-document-plus-outline"
+          title="Cambiar contraseña"
+          to="/change-password"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Productos Frecuentes"
+          to="/frequent-products"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Configuración de lista"
+          to="/list-config"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Historial de listas"
+          to="/list-history"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Configuracion despensas"
+          to="/pantries-config"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Despensas"
+          to="/pantries"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Configuración despensa"
+          to="/pantry-config"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Despensa"
+          to="/pantry"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Producto"
+          to="/product"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Perfil"
+          to="/profile"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Recuperar contraseña"
+          to="/recover-password"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Registrarse"
+          to="/register"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
+          title="Sesión cerrada"
+          to="/session-closed"
+          active-class="nav-selected"
+          class="orange-hover"
+          rounded="lg"
+        />
+
+        <v-list-item
+          prepend-icon="mdi-file-document-plus-outline"
           title="Login"
           to="/login"
           active-class="nav-selected"
